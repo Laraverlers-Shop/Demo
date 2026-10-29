@@ -35,7 +35,7 @@ composer install
 
 1 - Créez le fichier .env à partir du fichier d'exemple :
 
-    -   Sur Linux / Mac :
+- Sur Linux / Mac :
 ```bash
     cp .env.example .env
 ```
