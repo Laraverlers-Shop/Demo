@@ -40,7 +40,7 @@ composer install
     cp .env.example .env
 ```
 
-    -   Sur Windows (PowerShell) :
+- Sur Windows (PowerShell) :
 ```bash
 Copy-Item .env.example .env
 ```
@@ -54,20 +54,19 @@ php artisan key:generate
 ### 4. Configurer la base de données (SQLite)
 Pour garder une installation ultra-simple sans configurer MySQL, nous utilisons SQLite :
 
-1 - Ouvrez le fichier .env et vérifiez que ces deux lignes sont bien configurées :
+- Ouvrez le fichier .env et vérifiez que ces deux lignes sont bien configurées :
 
 ```bash
 DB_CONNECTION=sqlite
 ```
 
-2 - Créez le fichier de base de données SQLite :
+- Créez le fichier de base de données SQLite :
 
-    -   Sur Windows (PowerShell) :
+-   Sur Windows (PowerShell) :
 ```bash
 New-Item -ItemType File database/database.sqlite
 ```
-
-    -   Sur Linux / Mac :
+- Sur Linux / Mac :
 ```bash
 touch database/database.sqlite
 ```
