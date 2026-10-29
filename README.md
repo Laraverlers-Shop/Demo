@@ -90,7 +90,7 @@ Ouvrez votre navigateur et rendez-vous sur : http://127.0.0.1:8000
 ### Identifiants de connexion (Demo)
 Pour tester la connexion et l'accès protégé aux routes :
 
-E-mail : admin@est.ma
+E-mail : admin@uca.ac.ma
 
 Mot de passe : password
 
